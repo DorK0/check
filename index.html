@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="notes.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Document</title>
+
+</head>
+<body>
+    <main>
+    <img src="Images/T_2_Q_8154192361_text_editor_upload/title.png" class="title"/>
+    <div class="animate__animated animate__rollIn myForm">
+    <textarea class="description" maxlength="100" placeholder="Type here..."></textarea>
+    <div class="dateAndTime">
+        <label for="deadLine">Last Date To do:</label>
+    <input type="date" id="deadLine" class="deadLine">
+    <label for="timeLine">At:</label>
+    <input type="time" id="timeLine" class="timeLine">
+    </div>
+    <div class="myBtns">
+    <button class="create" onclick="showCard()">Create Task!</button>
+    <button class="reset">Cancel Task!</button>
+    </div>
+</div>
+    </main>
+
+
+<!-- <div class="col">
+    <div id="myNote" class="myNote">
+      <div class="card-body">
+        <h4 class="card-text"></h4>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <p></p><br/>
+          </div>
+          <small class="text-muted">9 mins ago</small>
+          <small class="text-muted">9 mins ago</small>
+        </div>
+        <button class="btn btn-danger">Remove</button>
+      </div>
+    </div>
+  </div> -->
+
+<section>
+    <div
+    id="myNotesDiv"
+    class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"
+  ></div>
+</section>
+<script>
+    const myNotesDiv=document.getElementById("myNotesDiv")
+let showCard=()=>{
+    myNotesDiv.innerHTML += `<div class="col">
+    <div id="myNote" class="myNote">
+      <div class="card-body">
+        <h4 class="card-text"></h4>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <p></p><br/>
+          </div>
+          <small class="text-muted">9 mins ago</small>
+          <small class="text-muted">9 mins ago</small>
+        </div>
+        <button class="btn btn-danger">Remove</button>
+      </div>
+    </div>
+  </div>`
+}
+</script>
+
+</main>
+</html>

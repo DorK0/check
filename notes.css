@@ -1,0 +1,56 @@
+body{
+    background-image: url("Images/T_2_Q_8154192361_text_editor_upload/tile.jpg");
+}
+.title{
+    margin-left: 38%;
+    margin-top: 3%;
+}
+.description{
+    background-image: url("Images/T_2_Q_8154192361_text_editor_upload/formbg.jpg");
+    height:140px;
+    width:550px;
+    margin-left:23%;
+    margin-top:0.7%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    resize: none;
+    border: none;
+    padding-top: 12px;
+    padding-left: 78px;
+    line-height: 1.7;
+}
+.deadLine{
+    width:124px;
+    margin-right: 7.5%;
+}
+
+.timeLine{ 
+    width:100px
+}
+.create{    
+margin-right:13% ;
+}
+.reset{  
+}  
+.myNote{
+    background-image: url("Images/T_2_Q_8154192361_text_editor_upload/notebg.png");
+    width: 200px; 
+     height:250px;
+    background-repeat: no-repeat;
+    padding: 2px;
+    margin: 3px;
+    
+}
+.dateAndTime{
+    position: flex;
+    margin-top: -5.8%;
+    margin-left: 29.5%;
+}
+.myBtns{
+    position: flex;
+    margin-top: 0.7%;
+    margin-left: 38.3%;
+}
+.myForm{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
